@@ -1,7 +1,0 @@
-streamlit
-gspread
-pandas
-google-auth
-python-docx
-fastapi
-uvicorn
