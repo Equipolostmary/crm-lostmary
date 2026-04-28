@@ -7,6 +7,16 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from services.google_sheets import get_all_sheets
 from services.data_processor import unify_data
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from services.google_sheets import get_all_sheets
+from services.data_processor import unify_data
+
 SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1EkUx27lMVtO7S88uuyYtzmjxBBiKyVNc1dXY-nUwpVM"
 
 st.set_page_config(page_title="CRM Lost Mary", layout="wide")
