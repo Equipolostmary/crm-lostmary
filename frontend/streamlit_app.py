@@ -1,4 +1,9 @@
 import streamlit as st
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from services.google_sheets import get_all_sheets
 from services.data_processor import unify_data
 
